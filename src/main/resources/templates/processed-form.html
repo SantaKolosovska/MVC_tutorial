@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hello, <a th:text="${param.studentName}"></a>! This is my processed form with your name!
+
+<br> <br>
+
+<p> Student name: </p>
+<p th:text="${param.studentName}"></p>
+
+<br> <br>
+
+<span>
+    <p> <span th:text="${message}"> </span>! </p>
+</span>
+
+</body>
+</html>
